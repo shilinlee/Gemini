@@ -20,11 +20,7 @@ body:
    attributes:
      label: To Reproduce（Bug 复现步骤）
      description: Steps to reproduce the behavior（描述复现Bug的步骤，第一步、第二步...）
-     placeholder:
-      - 1. Go to '...'
-      - 2. Click on '....'
-      - 3. Scroll down to '....'
-      - 4. See error
+     placeholder: "1. Go to '...'\n2. Click on '....'\n3. Scroll down to '....'\n4. See error "
  - type: textarea
    id: expectation
    attributes:
